@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ziyad Naseem - Personal Website</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body onload="startTime()">
+
+	<nav class="navbar">
+		<div class="max-width">
+			<div class="logo"><a href="#">Portfolio</a></div>
+			<ul class="menu">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<section class="home" id="home">
+		<div class="max-width">
+	    	<div class="home-content">
+	        	<div class="text-1">Ziyad Naseem</div>
+	        	<div class="text-2">Masters Student at IIIT Hyderabad</div>
+				<div class="timer" id="timer"></div>
+	        </div>
+	    </div>
+    </section>
+
+
+	<section class="about" id="about">
+		<div class="max-width">
+			<h2 class="title">About Me</h2>
+			<div class="about-content">
+				<div class="column left">
+					<img src="images/about.jpg" alt="">
+				</div>
+				<div class="column right">
+					<div class="text">I'm Ziyad Naseem and I'm a student at IIIT Hyderabad.</div>
+					<p>I aspire to be a software engineer. I'm a hard working guy who's always ready to learn new skills and contribute to the society. Besides this, I love watching and playing sports like cricket, football, table tennis, snooker, etc. I love travelling and exploring new places. I'm also a big foodie.</p>
+					<a href="CV/Resume - Ziyad Naseem.pdf">Download CV</a>
+				</div>
+			<div/>
+		<div/>
+	</section>
+
+
+	<section class="education" id="education">
+			<div class="max-width">
+				<h2 class="title">My Education</h2>
+				<div class="education-content">
+
+					<div class="card">
+						<div class="box1" onclick="click1()">
+							<img src="images/theresa.jpg" alt="">
+							<div class="text">St. Theresa Sr. Sec. School</div>
+							<p>Class 12th:  93.0%</p>
+							<a href="https://www.teresaschoolkgm.org/">Official Website</a>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="box2" onclick="click2()">
+							<img src="images/amu.jpg" alt="">
+							<div class="text">Aligarh Muslim University</div>
+							<p>B.Tech CSE:  CPI 9.323</p>
+							<a href="https://www.amu.ac.in/">Official Website</a>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="box3" onclick="click3()">
+							<img src="images/iiith.jpg" alt="">
+							<div class="text">IIIT Hyderabad</div>
+							<p>M.Tech CSE:  Present</p>
+							<a href="https://www.iiit.ac.in/">Official Website</a>
+						</div>
+					</div>
+
+				<div/>
+			<div/>
+	</section>
+
+
+	<section class="contact" id="contact">
+			<div class="max-width">
+				<h2 class="title">Contact Me</h2>
+				<div class="contact-content">
+					<div class="column left">
+						<table class="mytable "border="3">
+							<tr>
+								<th height=50 colspan="2" align="center">Professional Profiles</th>
+							</tr>
+							<tr>
+								<td align="center">Email</td> <td align="center"><a href="mailto:ziyadnaseem81@gmail.com" class="fa fa-google"></a><td>
+							</tr>
+							<tr>
+								<td align="center">LinkedIn</td> <td align="center"><a href="https://www.linkedin.com/in/ziyad-naseem-b18912193/" class="fa fa-linkedin"></a><td>
+							</tr>
+							<tr>
+								<td align="center">GitHub</td> <td align="center"><a href="https://github.com/Ziyadnaseem" class="fa fa-github"></a><td>
+							</tr>
+						</table>
+					</div>
+					<div class="column right">
+						<form action="#">
+							<div class="field">
+								<div class="fields">
+									<div class="field name">
+								    	<input type="text" placeholder="Name">
+								    </div>
+									<div class="field email">
+								        <input type="email" placeholder="Email">
+								    </div>
+								</div>
+								<div class="field subject">
+								   	<input type="text" placeholder="Subject">
+								</div>
+								<div class="field textarea">
+								    <textarea cols="30" rows="10" placeholder="Write a message.."></textarea>
+								</div>
+								<div class="button-area">
+								    <button type="submit">Send Message</button>
+								</div>
+                    	</form>
+					</div>
+				</div>
+			<div/>
+	</section>
+
+
+
+	<script src="script/script.js"></script>
+
+	<footer>
+			<p id="p1">Created by Ziyad Naseem | &#169; 2021 All rights reserved.</p>
+	</footer>
+
+</body>
+
+</html>

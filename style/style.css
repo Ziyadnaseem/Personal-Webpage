@@ -1,0 +1,519 @@
+*{
+ 	margin: 0;
+    	padding: 0;
+    	box-sizing: border-box;
+    	text-decoration: none;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+.max-width{
+	max-width: 1300px;
+	padding: 0 70px;
+	margin: auto;
+}
+
+.navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	padding: 5px 0;
+	background: midnightblue;
+	font-family: Garamond, serif;
+}
+
+.navbar .max-width{
+	display: flex;
+	height: 60px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar .menu li a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 20px;
+}
+
+.navbar .menu li a:hover{
+	color: navy;
+}
+
+.home{
+  	display: flex;
+    	background: url("../images/bg.jpg") no-repeat center;
+    	height: 100vh;
+    	color: #fff;
+    	min-height: 500px;
+    	background-size: cover;
+    	background-attachment: fixed;
+    	font-family: Garamond, serif;
+}
+
+.home .max-width{
+	
+	margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+	font-size: 70px;
+	font-weight: 700;
+}
+
+.home .home-content .text-2{
+	font-size: 40px;
+	margin: 5px 0;
+}
+
+.home .home-content .timer{
+	font-size: 22px;
+	position: absolute;
+	bottom: 30px;
+}
+
+section{
+	padding: 80px 0;
+}
+
+.about{
+	display: flex;
+	font-family: Merriweather;
+	background: ghostwhite;
+}
+
+.about .title{
+	color: midnightblue;
+	text-decoration: underline;
+	text-align: center;
+	position: relative;
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+	font-family: Garamond,serif;
+}
+
+.about .about-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}	
+
+.about .about-content .left{
+	width:30%
+}
+
+.about .about-content .left img{
+	height: 420px;
+	width: 300px;
+	object-fit: cover;
+	border-radius: 6px;
+}
+
+.about .about-content .right{
+	width:55%
+}
+
+.about .about-content .right .text{
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.about .about-content .right p{
+	font-size: 17px;
+	text-align: justify;
+}
+
+.about .about-content .right a{
+	display: inline-block;
+    	background: midnightblue;
+    	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 10px 30px;
+	margin-top: 30px;
+	border-radius: 6px;
+	border: 2px solid midnightblue;
+}
+
+.about .about-content .right a:hover{
+    	color: midnightblue;
+    	background: none;
+}
+
+
+
+
+section{
+	padding: 80px 0;
+}
+
+.education{
+	display: flex;
+	font-family: Merriweather;
+	background: #181818;
+}
+
+.education .title{
+	color: snow;
+	text-decoration: underline;
+	text-align: center;
+	position: relative;
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+	font-family: Garamond,serif;
+}
+
+.education .education-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.education .education-content .card{
+	width: calc(33% - 20px);
+	background: #282828;
+	text-align: center;
+	border-radius: 6px;
+	padding: 20px 25px;
+	cursor: pointer;
+}
+
+.education .education-content .card img{
+	height: 220px;
+	width: 240px;
+	object-fit: cover;
+}
+
+.education .education-content .card .text{
+	color: snow;
+	font-size: 25px;
+	font-weight: 400px;
+	margin: 10px 0 7px 0;
+}
+
+.education .education-content .card p{
+	color: snow;
+	font-size: 18px;
+	font-weight: 200px;
+	margin: 5px 0 0 0;
+}
+
+.education .education-content .card .box1 a, .education .education-content .card .box2 a, .education .education-content .card .box3 a{
+	padding: 30px 0 0 0;
+	text-align: right;
+	float: right;
+}
+
+.education .education-content .card:hover{
+	background: midnightblue;
+}
+
+.education .education-content .card:hover .box1, .education .education-content .card:hover .box2, .education .education-content .card:hover .box3{
+	transform: scale(1.05);
+}
+
+
+
+section{
+	padding: 80px 0;
+}
+
+.contact{
+	font-family: Merriweather;
+	background: ghostwhite;
+}
+
+.contact .title{
+	color: midnightblue;
+	text-decoration: underline;
+	text-align: center;
+	position: relative;
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+	font-family: Garamond,serif;
+}
+
+.contact .contact-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}	
+
+
+.contact .contact-content .left{
+	width: 40%;
+}
+
+table {
+	border-collapse: collapse;
+  	width: 100%;
+}
+
+th{
+	color: midnightblue;
+	font-size: 20px;
+	height: 60px;
+}
+
+.fa {
+  	padding: 20px;
+  	font-size: 30px;
+  	width: 30px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px 2px;
+  	border-radius: 50%;
+}
+
+.fa:hover {
+    	opacity: 0.7;
+}
+
+.fa-google {
+  	background: #dd4b39;
+  	color: white;
+}
+
+.fa-linkedin {
+  	background: #007bb5;
+  	color: white;
+}
+
+.fa-github {
+  	background: #2c4762;
+  	color: white;
+}
+
+
+.contact .right form .fields{
+    	display: flex;
+}
+
+.contact .contact-content .right{
+	width: calc(40% - 30px);
+}
+
+.contact .contact-content .right .field .button-area button{
+	display: inline-block;
+    	background: midnightblue;
+    	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 10px 30px;
+	margin-top: 30px;
+	border-radius: 6px;
+	border: 2px solid midnightblue;
+}
+
+.contact .contact-content .right .field .button-area button:hover{
+    	color: midnightblue;
+    	background: none;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field{
+	margin-bottom: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    	height: 100%;
+    	width: 100%;
+    	border: 1px solid lightgrey;
+    	border-radius: 6px;
+    	outline: none;
+    	padding: 0 15px;
+    	font-size: 17px;
+    	font-family: Poppins,sans-serif;
+}
+
+.contact .right form .name{
+	margin-right: 5px;
+	height: 40px;
+}
+
+.contact .right form .email{
+	margin-left: 5px;
+	height: 40px;
+}
+
+.contact .right form .subject{
+	height: 40px;
+}
+
+.contact .right form .button-area{
+  	display: flex;
+  	align-items: center;
+}
+
+footer{
+	background: #101010;
+	color: snow;
+	text-align: center;
+	font-size: 19px;
+	padding: 20px 20px;
+}
+
+@media (max-width: 990px){
+	.max-width{
+		padding: 0 40px;
+	}
+	
+	.navbar .menu{
+		position: right;
+	}
+	
+	.home .home-content .text-1{
+		font-size: 65px;
+		font-weight: 650;
+	}
+	
+	.home .home-content .text-2{
+		font-size: 35px;
+		margin: 5px 0;
+	}
+		
+	.home .home-content .timer{
+		font-size: 20px;
+		position: absolute;
+		bottom: 20px;
+	}	
+		
+	.about .about-content .column{
+	        width: 100%;
+	}
+	    
+	.about .about-content .left{
+	        display: flex;
+	        justify-content: center;
+	        margin: 0 auto 60px;
+	}
+	    
+	.about .about-content .right{
+	        flex: 100%;
+    	}
+	
+	.about .about-content .right a{
+		display: inline-block;
+	    	background: midnightblue;
+	    	color: white;
+		font-size: 15px;
+		font-weight: 450;
+		padding: 10px 30px;
+		margin-top: 30px;
+		border-radius: 6px;
+		border: 2px solid midnightblue;
+	}
+	
+	.contact .contact-content .column{
+		width: 100%;
+	}
+		    
+	.contact .contact-content .left{
+	        display: flex;
+	        justify-content: center;
+	        margin: 0 auto 60px;
+	}
+		    
+	.contact .contact-content .right{
+	        flex: 100%;
+    	}
+	
+	.education .education-content .card{
+	        width: calc(50% - 10px);
+	        margin-bottom: 20px;
+    	}
+	
+	footer{
+		font-size: 18px;
+	}
+}
+
+
+@media (max-width: 724px){
+	.max-width{
+		padding: 0 40px;
+	}
+	
+	.navbar .menu{
+		position: right;
+	}
+	
+	.home .home-content .text-1{
+		font-size: 56px;
+		font-weight: 560;
+	}
+	
+	.home .home-content .text-2{
+		font-size: 30px;
+		margin: 5px 0;
+	}
+		
+	.home .home-content .timer{
+		font-size: 18px;
+		position: absolute;
+		bottom: 20px;
+	}	
+	
+	.education .education-content .card{
+	        width: 100%;
+    	}
+	
+	footer{
+		font-size: 15px;
+	}
+}
+
+
+@media (max-width: 566px){
+	.max-width{
+		padding: 0 10px;
+	}
+	
+	.navbar .menu{
+		position: right;
+	}
+	
+	.home .home-content .text-1{
+		font-size: 40px;
+		font-weight: 400;
+	}
+	
+	.home .home-content .text-2{
+		font-size: 20px;
+		margin: 5px 0;
+	}
+	
+	.home .home-content .timer{
+		font-size: 14px;
+		position: absolute;
+		bottom: 10px;
+	}
+	
+	footer{
+		font-size: 15px;
+	}
+}
