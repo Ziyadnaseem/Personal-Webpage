@@ -42,3 +42,34 @@ function checkTime(i) {
   	if (i < 10) {i = "0" + i};
   	return i;
 }
+
+function fun1()
+{
+	document.getElementById("education").style.display="none";
+	document.getElementById("contact").style.display="none";
+	document.getElementById("about").style.display="none";
+	document.getElementById("home").style.display="block";
+}
+
+function fun2()
+{
+	document.getElementById("education").style.display="none";
+	document.getElementById("contact").style.display="none";
+	document.getElementById("home").style.display="none";
+	document.getElementById("about").style.display="block";
+}
+function fun3()
+{
+	document.getElementById("home").style.display="none";
+	document.getElementById("contact").style.display="none";
+	document.getElementById("about").style.display="none";
+	document.getElementById("education").style.display="block";
+}
+function fun4()
+{
+	document.getElementById("education").style.display="none";
+	document.getElementById("home").style.display="none";
+	document.getElementById("about").style.display="none";
+	document.getElementById("contact").style.display="block";
+}
+
